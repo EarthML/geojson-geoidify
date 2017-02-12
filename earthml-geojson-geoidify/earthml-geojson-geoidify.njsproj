@@ -38,7 +38,6 @@
     <Content Include="tsconfig.json" />
     <TypeScriptCompile Include="src\main.ts" />
     <Content Include="package.json" />
-    <Content Include="README.md" />
     <TypeScriptCompile Include="src\vendors.d.ts" />
   </ItemGroup>
   <ItemGroup>
