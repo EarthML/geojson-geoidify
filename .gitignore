@@ -265,3 +265,6 @@ __pycache__/
 /earthml-geojson-geoidify/src/main.d.ts
 /earthml-geojson-geoidify/src/main.js
 /earthml-geojson-geoidify/src/main.js.map
+/src/main.d.ts
+/src/main.js
+/src/main.js.map
