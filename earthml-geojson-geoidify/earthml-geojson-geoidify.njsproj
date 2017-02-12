@@ -33,7 +33,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="dockerfile" />
+    <Content Include="Dockerfile" />
     <Content Include="test\testfile.geojson" />
     <Content Include="tsconfig.json" />
     <TypeScriptCompile Include="src\main.ts" />

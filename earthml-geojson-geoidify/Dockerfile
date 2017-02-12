@@ -9,7 +9,7 @@ VOLUME ["/data"]
  
 
 COPY package.json /src
-RUN cd /src && npm install
+RUN cd /src && npm config set production && npm install
 COPY src/main.js /src
 
 
