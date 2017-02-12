@@ -259,3 +259,9 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/earthml-geojson-geoidify/src/main.js.map
+/earthml-geojson-geoidify/src/main.js
+/earthml-geojson-geoidify/src/main.d.ts
+/earthml-geojson-geoidify/src/main.d.ts
+/earthml-geojson-geoidify/src/main.js
+/earthml-geojson-geoidify/src/main.js.map

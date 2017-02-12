@@ -4,7 +4,7 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
     <Name>earthml-geojson-geoidify</Name>
     <RootNamespace>earthml-geojson-geoidify</RootNamespace>
-    <ScriptArguments>test/testfile.geojson</ScriptArguments>
+    <ScriptArguments>C:/eg-hm/egm96-15.tif test/testfile.geojson test.geojson</ScriptArguments>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>

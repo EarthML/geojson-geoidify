@@ -17,7 +17,7 @@ function stringify () {
 };
 
 
-let readStream = fs.createReadStream(process.argv[2], { encoding: 'utf8' });
+
 
 function printDataset(dataset) {
     console.log("number of bands: " + dataset.bands.count());
@@ -28,7 +28,7 @@ function printDataset(dataset) {
 }
 
 
-let egm96 = gdal.open("C:/eg-hm/egm96-15.tif");
+let egm96 = gdal.open(process.argv[2]);
 printDataset(egm96);
 
 let gt = egm96.geoTransform;
@@ -74,4 +74,4 @@ var geoidify = es.mapSync(function (data) {
     return data
 })
 
-let reader = readStream.pipe(parse()).pipe(geoidify).pipe(stringify()).pipe(fs.createWriteStream("test.geojson"));
+let reader = fs.createReadStream(process.argv[3], { encoding: 'utf8' }).pipe(parse()).pipe(geoidify).pipe(stringify()).pipe(fs.createWriteStream(process.argv[4]));
