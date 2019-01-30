@@ -1,5 +1,5 @@
 ﻿
-FROM node:4
+FROM node:10
 MAINTAINER Poul K. Sørensen "pks@earthml.com"
 
 

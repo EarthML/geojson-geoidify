@@ -4,7 +4,9 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
     <Name>earthml-geojson-geoidify</Name>
     <RootNamespace>earthml-geojson-geoidify</RootNamespace>
-    <ScriptArguments>C:/eg-hm/egm96-15.tif test/testfile.geojson test.geojson</ScriptArguments>
+    <ScriptArguments>"C:\data\geoids\dvr90.tif" "C:\dev\ascend\Ascend.Ammo.ObstracleManagement\tools\Ascend.Ammo.ObstacleManagementObstacleListGenerator\bin\Debug\net472\ekka-aixm.csv" "C:\dev\ascend\Ascend.Ammo.ObstracleManagement\tools\Ascend.Ammo.ObstacleManagementObstacleListGenerator\bin\Debug\net472\ekka-aixm-ellipsoid.csv" </ScriptArguments>
+    <ToolsVersionPromptShown>0.0</ToolsVersionPromptShown>
+    <SaveNodeJsSettingsInProjectFile>True</SaveNodeJsSettingsInProjectFile>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -24,7 +26,7 @@
     <TypeScriptSourceMap>true</TypeScriptSourceMap>
     <TypeScriptModuleKind>CommonJS</TypeScriptModuleKind>
     <EnableTypeScript>true</EnableTypeScript>
-    <StartWebBrowser>false</StartWebBrowser>
+    <StartWebBrowser>False</StartWebBrowser>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
